@@ -25,6 +25,7 @@ I used Python for the processing logic and pytest to test the different scenario
 | -------------------------------- | ---------------------- |
 | Missing or invalid required data | Manual Review Required |
 | Duplicate invoice                | Manual Review Required |
+| Negative or invalid amount       | Manual Review Required |
 | Amount up to €1,000, if valid    | Auto Process           |
 | Amount above €1,000 up to €5,000 | Approval Required      |
 | Amount above €5,000              | Management Review      |
